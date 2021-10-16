@@ -1,0 +1,13 @@
+{
+    "_template": "https://www.github.com/apiology/cookiecutter-docker-image",
+    "email": "vince@broz.cc",
+    "full_docker_image_name": "apiology/circleci-document",
+    "full_name": "Vince Broz",
+    "github_username": "apiology",
+    "open_source_license": "MIT license",
+    "project_name": "CircleCI build image for documents",
+    "project_short_description": "CircleCI build image for documents",
+    "project_slug": "docker-circleci-document",
+    "type_of_github_repo": "public",
+    "version": "0.1.0"
+}
