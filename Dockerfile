@@ -1,5 +1,6 @@
 ARG DOCKER_TAG=latest
-FROM circleci/ruby:${DOCKER_TAG}
+FROM apiology/circleci:${DOCKER_TAG}
 MAINTAINER apiology
 
-RUN sudo apt-get install -y libicu-dev cmake
+COPY Makefile fix.sh requirements_dev.txt Gemfile Gemfile.lock /tmp/
+RUN cd /tmp && ./fix.sh

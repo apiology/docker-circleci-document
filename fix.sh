@@ -357,3 +357,9 @@ ensure_python_requirements
 ensure_shellcheck
 
 ensure_overcommit
+
+install_package pandoc
+
+install_package wkhtmltopdf
+
+install_package ispell
